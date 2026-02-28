@@ -1,5 +1,5 @@
 {% set name = "mgzip" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mgzip-{{ version }}.tar.gz
-  sha256: 75f39c96be19d10582403312328e59c25282e1b81a75309ef4cb64ca367609c4
+  sha256: c3acc22203e571f83e5764923ea534c0a9638b938ff6a4b4687a575fd0f2f15c
 
 build:
   noarch: python
